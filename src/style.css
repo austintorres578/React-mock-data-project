@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-bar{
+    padding: 30px 5% 30px 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 30px;
+}
+.nav-bar img{
+    height: 30px;
+    width: auto;
+}
+.hero-container{
+    display: block;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-img{
+    width: auto;
+    height: 435px;
+}
+
+.hero-text-container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.hero-text-container h1{
+    font-size: 75px;
+    font-weight: 500px;
+    margin-bottom: 5px;
+}
+.hero-text-container p{
+    font-size: 30px;
+    width: 675px;
+}
+.cards-section-container{
+    display: flex;
+    overflow-x: scroll;
+    padding-left: 50px;
+}
+.cards-section-container div{
+    margin-right: 15px;
+}
+.card{
+    padding-left: 5%;
+}
+.card-image{
+    position: relative;
+}
+.card-image img{
+    height: 350px;
+    border-radius: 10px;
+    width: auto;
+}
+.card-tag{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+.card-tag p{
+    background-color: #FFFFFF;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 0px;
+}
+.card-subtext div{
+    margin-bottom: 5px;
+}
+.card-rating{
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+.card-rating img{
+    height: 15px;
+    width: 15px;
+    margin-right: 3px;
+}
+.card-rating p{
+    margin: 0px 3px 0px 0px
+}
+.card-name{
+    padding-left: 5%;
+}
+.card-name p{
+    margin: 0px;
+}
+.card-price p{
+    padding-left: 5%;
+}
+.card-price p{
+    margin: 0px;
+}
